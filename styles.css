@@ -110,6 +110,15 @@ body {
 
   background-color: white;  
 }
+
+.slides.template-suit > article:not(.nobackground):not(.biglogo) {
+  background: url(images/side-liquid.png) 121px 245px no-repeat;
+
+  background-size: 779, 457;
+
+  background-color: white;  
+}
+
 .slides.layout-widescreen > article:not(.nobackground):not(.biglogo),
 .slides.layout-faux-widescreen > article:not(.nobackground):not(.biglogo) {
   background-position-x: 0, 840px;
@@ -162,6 +171,14 @@ body {
   background: white url(images/googleio-logo.png) 50% 50% no-repeat;
 
   background-size: 600px;
+}
+
+.slides.template-suit article.biglogo {
+  background: white url(images/suitmedia-logo-siluet.jpg) 50% 50% no-repeat;
+
+  background-size: 600px;
+
+  background-color: #white;
 }
 
 /* Slides */
